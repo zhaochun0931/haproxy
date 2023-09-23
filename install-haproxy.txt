@@ -7,3 +7,6 @@ haproxy -v
 /etc/haproxy/haproxy.cfg
 
 
+
+
+systemctl restart haproxy
