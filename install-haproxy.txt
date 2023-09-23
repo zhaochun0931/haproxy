@@ -1,0 +1,2 @@
+apt install haproxy -y
+haproxy -v
