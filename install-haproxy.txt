@@ -1,2 +1,9 @@
 apt install haproxy -y
 haproxy -v
+
+
+
+
+/etc/haproxy/haproxy.cfg
+
+
