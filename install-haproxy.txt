@@ -7,6 +7,9 @@ haproxy -v
 /etc/haproxy/haproxy.cfg
 
 
+There are four essential sections to an HAProxy configuration file. They are global, defaults, frontend, and backend. 
+
+
 
 
 systemctl restart haproxy
