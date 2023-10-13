@@ -16,3 +16,10 @@ There are four essential sections to an HAProxy configuration file. They are glo
 
 
 systemctl restart haproxy
+
+
+
+
+
+
+docker run -d --rm -it --name haproxy -v $(pwd)/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg haproxy
