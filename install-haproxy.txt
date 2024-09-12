@@ -1,3 +1,4 @@
+# install
 apt update
 apt install haproxy -y
 haproxy -v
@@ -5,6 +6,8 @@ haproxy -v
 
 
 
+
+# configure
 /etc/haproxy/haproxy.cfg
 
 haproxy -c -f /etc/haproxy/haproxy.cfg
@@ -17,6 +20,23 @@ There are four essential sections to an HAProxy configuration file. They are glo
 
 
 systemctl restart haproxy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
