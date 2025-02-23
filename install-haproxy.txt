@@ -28,24 +28,5 @@ A frontend section defines the IP addresses and ports that clients can connect t
 systemctl restart haproxy
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+http://localhost:9000/stats
 
